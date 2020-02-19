@@ -58,4 +58,12 @@ public class TCPConnection {
             eventListener.onException(TCPConnection.this, e);
         }
     }
+	public static void main(String[] args) {
+      
+      int num1 = 5, num2 = 15, dif;
+
+      dif = num1 - num2;
+	  
+      logger.log("Dif of these numbers: " + dif);
+   }
 }
